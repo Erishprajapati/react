@@ -3,14 +3,14 @@
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -27,7 +27,7 @@
 
 .footer-section p,
 .footer-section ul {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.6;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .footer-section ul li {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .footer-section ul li a {
@@ -51,11 +51,11 @@
 
 .social-media {
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .footer-bottom {
-    text-align: center;
-    padding-top: 10px;
+    text-align: center ;
+    padding-top: 6px;
     border-top: 1px solid #444;
 }

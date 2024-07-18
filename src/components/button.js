@@ -1,6 +1,8 @@
-function MyButton (){
+function button() {
     return (
-        <button className="Click">Click me</button>
-    )
-};
-export default MyButton;
+      <button>
+        I'm a button
+      </button>
+    );
+  }
+export default button;
