@@ -15,7 +15,9 @@ const App = () => {
         <input type="email" name="email"></input><br />
         <label>Number:</label><br />
         <input type="number" name="number"></input><br />
-       
+        <label>College:</label><br />
+        <input type="text" name="name"></input><br />
+      
       </form>
 
     </div>
