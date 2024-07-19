@@ -17,6 +17,8 @@ const App = () => {
         <input type="number" name="number"></input><br />
         <label>College:</label><br />
         <input type="text" name="name"></input><br />
+        <label>College:</label><br />
+        <input type="text" name="name"></input><br />
       
       </form>
 
