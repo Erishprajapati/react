@@ -1,36 +1,73 @@
-import Footer from './components/Footer';
-import './components/form.css';
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
+//way 1 to write function 
+// function App(){
+//   return(
+//     <div>
+//       <Navbar />
+//       <Footer />
+//     </div>
+//   )
+// }
+// export default App;
+//Way 2: 
+// const App = () => {
+//   return (
+//     <div>
+//       <Navbar/>
+//       <Footer/>
+//     </div>
+//   )
+// }
+// export default App;
+
+//creating normal class 
+// class App{
+
+// }
+
+//in react.js
+// import React from 'react';
+// class App extends React.Component {
+// render(){
+//   return(
+//     <>
+//     <h1>Hello world</h1>
+//     </>
+//   )
+// }
+// }
+// export default App;
+
+// import React from 'react';
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <>
+//         <h1>Class-based component</h1>
+//       </>
+//     );
+//   }
+// }
+
+// export default App;
+import './App.css';
 import Navbar from './components/Navbar';
-
-const App = () => {
-  return (
+// import Card from './components/card';
+import Studentinfo from './components/studentinfo';
+const App = () =>{
+  return(
     <>
-    <Navbar />
-    <h1> Form Validation</h1>
-    <div className="registration">
-      <form>
-        <label>Name:</label><br />
-        <input type="text" name="name"></input><br />
-        <label>Email:</label><br />
-        <input type="email" name="email"></input><br />
-        <label>Number:</label><br />
-        <input type="number" name="number"></input><br />
-        <label>College:</label><br />
-        <input type="text" name="name"></input><br />
-        <label>College:</label><br />
-        <input type="text" name="name"></input><br />
-      
-      </form>
-
-    </div>
-   <button>
-    Click me
-   </button>
-<form />
-
-<Footer />
+  <Navbar />
+  <Studentinfo name="Erish" age={20}/>
+  {/* <Card name="Cloud Kitchen"/>
+  <Card name="Inventory management" />
+  <Card name="Freelancing" />
+  <Card name="Salary notification"/>
+  <Card name="Attendance system"/>
+  <Card  name="E-library "/> */}
     </>
   )
 }
-
 export default App;
